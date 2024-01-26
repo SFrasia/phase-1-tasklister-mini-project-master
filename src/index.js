@@ -11,9 +11,9 @@ document.addEventListener("DOMContentLoaded", () => {
     delBtn.addEventListener("click", (e) => {
       e.target.parentNode.remove();
     });
-    delBtn.style = "left:20px";
+    delBtn.style = "left:30px";
     const newLi = document.createElement("li");
-    newLi.textContent = val + "  ";
+    newLi.textContent = val + " ";
     newLi.appendChild(delBtn);
     list.appendChild(newLi);
     description.value = "";
